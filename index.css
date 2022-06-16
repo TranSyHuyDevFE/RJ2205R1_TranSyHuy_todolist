@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #667da18f;
+}
+h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.container {
+  background: aliceblue;
+  margin: 50px auto;
+  width: 50%;
+}
+.card-header {
+  display: flex;
+  background: #bdd2d2;
+}
+.show_todo {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  height: 500px;
+  overflow-y: scroll;
+}
+.context {
+  justify-content: space-between;
+  border-bottom: 5px solid;
+  padding-top: 30px;
+}
+
+.footer_main i {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #454545;
+  transition: all 1s;
+  color: #aaaaaa;
+}
+.footer_main {
+  border-top: 1px solid #454545;
+  padding-top: 30px;
+  margin-top: -40px;
+}
+.footer_main a {
+  color: #aaa;
+}
+.footer_main i:hover {
+  color: #35a22c;
+  border: 1px solid #35a22c;
+}
+.footer_main a:hover {
+  text-decoration: none;
+  color: #35a22c;
+}
+.footer_title {
+  border-color: #454545;
+  border-style: solid none none;
+  border-width: 1px 0px 0px;
+  color: #fff;
+  line-height: 24px;
+  margin: 30px 0px 0px;
+  padding-top: 20px;
+}
+.footer_title p {
+  color: #aaaaaa;
+  font-family: "hind";
+  line-height: 24px;
+}
+#input-add::placeholder {
+  color: rgba(0, 0, 0, 0.351);
+}
